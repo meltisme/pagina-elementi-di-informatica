@@ -1,0 +1,50 @@
+  <style>
+   h2 {
+  font-size:50px;color:#9999dd; font-family:Arial
+  }
+   
+   p {color:orange; text-decoration:line-through}
+   
+   #superparola {
+     color:violet;
+   }
+   
+   .data {color:yellow}
+  </style>
+
+
+<h1 style="font-size:12;color:green">Diario</h1>
+
+<h2>15/03/17</h2>
+<p>Per andare su <a href="www.google.it">Google</a> è necessario inserire link nel tag</p>
+<p>Caro <span style="color:red">diario</span> oggi sto usando code pen per <span id="superparola">CSS</span>, span è il tag che si usa per caratterizzare una parola in linea con le altre, non posso usare una proprietà da sola come tag mi serve prima la stringa: span, h1, ecc.</p>
+
+<h2 class="data">16/03/17</h2>
+<h2> Questa non è una data, quando categorizzo una classe uso -> .proprietà della classe</h2>
+
+17/03/17
+<style>
+p{
+color:red
+}
+<p>Quando un tag è contenuto <h1>in un altro</h1> si dice che è figlio, l'insieme dei tag <h2>figli e nipoti, tag nel tag nel tag, si chiama albero</h2> i figli ereditano le proprietà.</p>
+
+31.03.17
+<style
+.el {
+height 20px
+widt: 20px;
+border radius 50%;
+backgroung-color: green;
+position: absolute
+opacity: 0.7;
+}
+#el2 {
+left: 50px
+animation:
+
+@keyframes
+
+http://www.handylex.org/stato/l030401.shtml
+http://uictrento.it/normative.html
+http://www.iapb.it/polonazionale/normativa-ipovisione-e-cecita
