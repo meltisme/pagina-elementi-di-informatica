@@ -4,8 +4,13 @@ color:yellow;
 background-color:pink;
 margin-left:20px;
 }
-
+body {font-family: sans-serif;}
+.importante {font-style: italic;}
 #curriculum {
   color:red;
-
 }
+em {font-weight: bold;}
+.importante em {color: greenyellow}
+h2:hover{
+  transition: 2s;
+  font-size: 48px}
