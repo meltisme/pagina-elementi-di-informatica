@@ -1,3 +1,16 @@
-h1,h2,h3 {
+h1 {
   color: blue
+}
+h2 {
+  color: red
+}
+h3 {
+  color:greenyellow
+}
+.placeholder{
+  background-color: grey;
+  border: 5px solid yellow
+}
+.important {
+  text-decoration: underline;
 }
