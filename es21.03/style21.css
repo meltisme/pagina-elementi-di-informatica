@@ -9,7 +9,8 @@ h3 {
 }
 .placeholder{
   background-color: grey;
-  border: 5px solid yellow
+  border: 5px solid yellow;
+  padding: 5px;
 }
 .important {
   text-decoration: underline;

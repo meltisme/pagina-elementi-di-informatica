@@ -1,0 +1,64 @@
+<html>
+<head>
+  <style>
+
+  @keyframes spin {
+    from {transform: rotate(0) scale(1);}
+    to {transform: rotate(360deg) scale(0.5);}
+  }
+
+@keyframes move {
+  0%{transform:translate(-50px,-50px); }
+  50%{transform:translate(50px,0);}
+  100%{transform:translate(50px,50px);}
+}
+
+@keyframes move2 {
+  0%{transform:translate(50px,50px); }
+  50%{transform:translate(-50px,50px);}
+  100%{transform:translate(-50px,-50px);}
+}
+
+#container {
+  animation:move 1s infinite alternate;
+  position:absolute;
+  top:50%; left:50%;
+}
+
+#container2 {
+  animation:move2 1s infinite alternate;
+  position:absolute;
+  top:50%; left:50%;
+}
+
+  #spinner{
+    position:absolute;
+    top:50%; left:50%;
+    animation: spin 1s infinite alternate;
+    height:50px;
+    width: 50px;
+    background-color: red;
+  }
+
+
+  #spinner2{
+    position:absolute;
+    top:50%; left:50%;
+    animation: spin 1s infinite alternate;
+    height:50px;
+    width: 50px;
+    background-color: red;
+  }
+
+  </style>
+</head>
+<body>
+  <div id="container">
+  <div id="spinner"></div>
+</div>
+
+<div id="container2">
+<div id="spinner2"></div>
+</div>
+</body>
+</html>

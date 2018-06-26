@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+      <script src="jquery.js"></script>
+    <title></title>
+    <style>
+      #stella {
+        background-color: yellow;
+        width: 50px; height: 50px;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius:50%;
+      }
+      #blu  {
+        background-color: blue;
+        width: 40px; height: 40px;
+        position: absolute;
+        top: 50%; left: 50%;
+        border-radius:50%;
+          }
+          @keyframes spin {
+            from {transform: rotate(0)}
+              to{transform: rotate(360deg)}
+          }
+
+          #quadrato
+  </head>
+  <body>
+  <div id="stella"></div>
+  <div id="blu"></div>
+  <script>
+  $("#stella").on("click", function) {
+    $("#blu").addClass("spinning")
+    })
+    {/script}
+ </body>
+</html>

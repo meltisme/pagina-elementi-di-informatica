@@ -1,0 +1,56 @@
+body {font-family: "Helvetica";
+background-color: black;
+line-height: 1.2em;
+font-weight: 500;
+font-style: normal;
+font-size: 17px;}
+
+p { color: white;
+}
+ul {color: white;
+font-size: 20px;}
+
+h1 { font-size: 45px;
+	padding-top: 140px;
+}
+
+h1, h2, h3 {
+color:yellow;
+}
+#home a:visited .bigger h2, .container a:visited h1, .container a:visited h2, a:visited {
+	color: #00ff00;
+}
+
+.container { position: relative; 
+	text-align: left;
+    margin: 50px auto;
+    padding: 20px  0 0 100px;
+    border: 0px;
+    width: 550px;
+    overflow: visible;
+    min-height: 600px;
+	z-index: 10;
+    }
+
+    .link {font-weight: bold;
+    color: yellow;
+  font-size: 20px;}
+
+
+.sfondo img {
+	top: 0;
+	position: absolute;
+	width: 100vw;
+	height: auto;
+}
+
+
+img {
+	z-index: 0;
+	opacity: 1;
+}
+
+.contatti li a {
+	
+	line-height: 3em;
+}
